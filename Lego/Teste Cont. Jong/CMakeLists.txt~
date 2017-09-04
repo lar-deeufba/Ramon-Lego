@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( TesteRover )
+find_package( OpenCV REQUIRED )
+add_executable(TesteRover TesteRover.cpp serial_port.cpp serial_port.hpp Funcoes.cpp Funcoes.hpp)
+target_link_libraries( TesteRover ${OpenCV_LIBS} )

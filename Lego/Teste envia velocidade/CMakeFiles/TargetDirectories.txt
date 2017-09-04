@@ -1,0 +1,1 @@
+/home/andre/Área de Trabalho/Lego/Teste envia velocidade/CMakeFiles/TesteLego.dir
